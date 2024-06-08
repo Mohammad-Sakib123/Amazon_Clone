@@ -8,6 +8,8 @@
     height: 60px;
     background-color: #0F1111;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .nav-logo {
@@ -29,4 +31,42 @@
 
 .bordar:hover {
     border: 2px solid white;
+}
+
+/* Box 2 */
+
+.add-first {
+    font-size: 0.85em;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1em;
+    color: #cccccc;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Box3 */
+
+.nav-search {
+    display: flex;
+    height: 40px;
+    width: 620px;
+    background-color: pink;
+    border-radius: 4px;
+}
+
+.search-select {
+    background-color: #F3F3F3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
 }
